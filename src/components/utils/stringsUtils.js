@@ -1,0 +1,1 @@
+export const replaceSpacesWithHypen = (text) => text.replace(/ /g, 'miproducto/')
