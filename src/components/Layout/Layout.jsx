@@ -6,9 +6,9 @@ import Home from '../../pages/home/Home'
 const Layout = () => {
   return (
     <div>
-        <Navbar />
-        <Outlet />
-        <Home />
+      <Navbar />
+      <Outlet />
+      <Home />
     </div>
   )
 }
