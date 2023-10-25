@@ -1,5 +1,4 @@
 import React from 'react'
-import MyProducts from '../../components/products/MyProducts'
 
 const Home = () => {
   return (
