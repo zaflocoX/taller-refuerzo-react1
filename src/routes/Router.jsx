@@ -10,7 +10,7 @@ const Router = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Layout />} />
+                <Route path='/taller-refuerzo-react' element={<Layout />} />
                 <Route path='/component' element={<MyComponent />} />
                 <Route path='/count' element={<MyCount />} />
                 <Route path='/products' element={<MyProducts />} />
