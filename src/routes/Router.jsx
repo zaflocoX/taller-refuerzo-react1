@@ -9,7 +9,7 @@ import Home from '../pages/Home/Home'
 
 const Router = () => {
     return (
-        <BrowserRouter basename='/taller-refuerzo-react'>
+        <BrowserRouter basename='/taller-refuerzo-react1'>
             <Routes>
                 <Route path='/' element={<Layout />} >
                     <Route index element={<Home />} />
