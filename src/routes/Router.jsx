@@ -4,17 +4,19 @@ import Layout from '../components/Layout/Layout'
 import MyComponent from '../components/MyComponent/MyComponent'
 import MyCount from '../components/MyCount/MyCount'
 import MyProducts from '../components/products/MyProducts'
+import Home from '../pages/Home/Home'
 
 
 const Router = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='/taller-refuerzo-react'>
             <Routes>
-                <Route path='/taller-refuerzo-react' element={<Layout />} />
-                <Route path='/component' element={<MyComponent />} />
-                <Route path='/count' element={<MyCount />} />
-                <Route path='/products' element={<MyProducts />} />
-                
+                <Route path='/' element={<Layout />} >
+                    <Route index element={<Home />} />
+                    <Route path='component' element={<MyComponent />} />
+                    <Route path='count' element={<MyCount />} />
+                    <Route path='products' element={<MyProducts />} />
+                </Route>
             </Routes>
         </BrowserRouter>
     )
